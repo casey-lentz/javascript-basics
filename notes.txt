@@ -1,0 +1,6 @@
+github(gitlab,bitbucket) = code repository management = centralized location of code
+code repository management = many people working on the same project (agile)
+When many people work on the same project there can be conflicts (people working on the same piece of code)
+
+1. create repository (and github account)
+2. create local version of repository
