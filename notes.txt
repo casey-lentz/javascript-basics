@@ -13,3 +13,16 @@ ________________________________________________________________
   - git commit -m '[your commit message describing what you did]'
   - git push to push all your work to github repository for all to see
 
+GIT BRANCHING
+----------------------------------------------------------------
+each person can create a branch and make changes to whatever they want.
+
+1.You can create a branch within github.
+2. git checkout [branch name].
+  - create edits.
+  - use git commands noted above (git add,etc).
+3. creating a pull request within github.
+  - this is requesting code to go into another branch.
+  - merge request usuall will go to a senior developer for review and merged.
+  - merge conflicts are resolved in merge requests if conflicts happen.
+  
