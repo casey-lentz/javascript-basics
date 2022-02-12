@@ -2,5 +2,14 @@ github(gitlab,bitbucket) = code repository management = centralized location of 
 code repository management = many people working on the same project (agile)
 When many people work on the same project there can be conflicts (people working on the same piece of code)
 
+CREATING REPOSITORY
+________________________________________________________________
 1. create repository (and github account)
 2. create local version of repository
+3. add files to repository locally
+4. make changes to any file in the repo
+5. use git commands to add files to repository
+  - git add [filename] or if more than one file [--al]
+  - git commit -m '[your commit message describing what you did]'
+  - git push to push all your work to github repository for all to see
+
