@@ -5,8 +5,8 @@ When many people work on the same project there can be conflicts (people working
 CREATING REPOSITORY
 ________________________________________________________________
 1. create repository (and github account)
-2. create local version of repository
-3. add files to repository locally
+2. create local version of repository 
+3. add files to repository locally - git clone [url]
 4. make changes to any file in the repo
 5. use git commands to add files to repository
   - git add [filename] or if more than one file [--all]
