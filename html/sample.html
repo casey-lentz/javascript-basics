@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first page</title>
+  <script>
+    function handleClick() {
+      let usernameInput = document.getElementById('username'); // use the document and get the id of input #username
+      usernameInputValue = usernameInput.value;
+      alert(usernameInputValue);
+    }
+    function setUserName() {
+      document.getElementById('username').value = 'John Smith'; // set the value 
+    }
+
+    function setAllUserName() {
+      let result = document.getElementsByName('username');
+      for(let i=0; i<result.length; i++) {
+        result[i].value = 'John George';
+      }
+    }
+    
+  </script>
+</head>
+<body>
+  <p>
+    <!-- paragraph text -->
+    This is first paragraph.
+  </p>
+  <p>Second paragraph.</p>
+  <label for="">Enter a Name
+    <input type="text" id="username" name="username" />
+  </label>
+  <label for="">Enter a Name
+    <input type="text" id="username123" name="username" />
+  </label>
+  <!-- Event handling click -->
+  <button onclick="handleClick();">Click Me!</button>
+  <button onclick="setUserName();">Set the user!</button>
+  <button onclick="setAllUserName();">Set All user!</button>
+</body>
+</html>
