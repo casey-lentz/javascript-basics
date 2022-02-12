@@ -9,7 +9,7 @@ ________________________________________________________________
 3. add files to repository locally
 4. make changes to any file in the repo
 5. use git commands to add files to repository
-  - git add [filename] or if more than one file [--al]
+  - git add [filename] or if more than one file [--all]
   - git commit -m '[your commit message describing what you did]'
   - git push to push all your work to github repository for all to see
 
