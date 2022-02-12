@@ -15,3 +15,5 @@ object1['print'] = function() { // values of key:value pairs can be functions
 }
 object1.print(); // call the function
 
+// Object is a collection of properties and functions which
+// properties and function can be dynamic 
