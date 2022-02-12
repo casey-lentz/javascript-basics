@@ -17,3 +17,10 @@ object1.print(); // call the function
 
 // Object is a collection of properties and functions which
 // properties and function can be dynamic 
+
+for (let property in object1) {
+  console.log(property, object1[property]); // get key value pairs of entire object1
+}
+
+// CLASSES introduced ecmaScript 2015 
+
