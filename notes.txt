@@ -16,7 +16,7 @@ ________________________________________________________________
 GIT BRANCHING
 ----------------------------------------------------------------
 each person can create a branch and make changes to whatever they want.
-
+GIT COMMANDS = https://git-scm.com/docs/git
 1.You can create a branch within github.
 2. git checkout [branch name].
   - create edits.
